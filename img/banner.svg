@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1410"/>
+      <stop offset="1" stop-color="#3a2218"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <g font-family="Consolas, Menlo, monospace" font-size="20">
+    <rect x="700" y="62" width="200" height="200" rx="16" fill="#2a1f19" stroke="#ff6c37" stroke-width="3"/>
+    <text x="722" y="102" fill="#ff6c37" font-weight="700">POST</text>
+    <text x="722" y="132" fill="#e6d5c8">/posts</text>
+    <text x="722" y="172" fill="#9fb3c8">{</text>
+    <text x="742" y="200" fill="#e6d5c8">"title": ...</text>
+    <text x="722" y="228" fill="#9fb3c8">}</text>
+    <rect x="980" y="62" width="180" height="200" rx="16" fill="#2a1f19" stroke="#3fb950" stroke-width="3"/>
+    <text x="1002" y="102" fill="#3fb950" font-weight="700">201</text>
+    <text x="1002" y="132" fill="#e6d5c8">Created</text>
+    <text x="1002" y="172" fill="#9fb3c8">{</text>
+    <text x="1022" y="200" fill="#e6d5c8">"id": 101</text>
+    <text x="1002" y="228" fill="#9fb3c8">}</text>
+  </g>
+  <g fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M912 130H968M952 116L968 130L952 144" stroke="#ff6c37"/>
+    <path d="M968 196H912M928 182L912 196L928 210" stroke="#3fb950"/>
+  </g>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="70" y="135" font-size="62" font-weight="700" fill="#ffffff">Aprende Postman</text>
+    <text x="72" y="190" font-size="28" fill="#d8c2b4">Prueba APIs desde cero, paso a paso</text>
+    <rect x="70" y="222" width="250" height="44" rx="22" fill="#ff6c37"/>
+    <text x="195" y="252" font-size="21" font-weight="700" fill="#1a1410" text-anchor="middle">8 módulos + reto final</text>
+  </g>
+</svg>
