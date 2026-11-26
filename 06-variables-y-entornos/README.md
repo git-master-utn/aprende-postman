@@ -110,6 +110,10 @@ Ya puedes usarla en otra URL, por ejemplo `{{base_url}}/posts/{{post_id}}`.
 > Las URL de tu colección deben usar `{{base_url}}`, y vas a subir tu entorno
 > **Desarrollo** con la variable `base_url` (módulo 08).
 
+> [!TIP]
+> **¿Ya quedó bien?** Haz `git push` y comenta `/revisar` en tu Issue de avance.
+> Si todavía no lo tienes, ábrelo aquí: [📈 Revisar mi avance](https://github.com/git-master-utn/aprende-postman/issues/new?template=revisar-avance.md&title=Revisar+mi+avance).
+
 ## ✅ Antes de continuar
 
 - [ ] Tengo el entorno `Desarrollo` seleccionado

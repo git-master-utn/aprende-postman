@@ -8,6 +8,10 @@ colección de Postman y revisa la evidencia de cada módulo.
 > a tu repo `mi-coleccion-postman` (módulo 08). Si te saltaste algo, el robot te
 > lo va a decir.
 
+> [!TIP]
+> **Antes de mandar tu Pull Request**, revisa que vayas en 10 / 10 con tu Issue
+> [📈 Revisar mi avance](https://github.com/git-master-utn/aprende-postman/issues/new?template=revisar-avance.md&title=Revisar+mi+avance).
+
 ## ✅ Requisitos antes de empezar
 
 Todo se revisa en **tu** repositorio `mi-coleccion-postman`. Debe ser **público**,

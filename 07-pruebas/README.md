@@ -122,6 +122,10 @@ Guarda cada petición (Ctrl + S) después de agregar sus pruebas.
 > Al menos **3 peticiones** de tu colección deben tener pruebas con `pm.test`.
 > Recuerda **guardar**: si no guardas, las pruebas no se exportan.
 
+> [!TIP]
+> **¿Ya quedó bien?** Haz `git push` y comenta `/revisar` en tu Issue de avance.
+> Si todavía no lo tienes, ábrelo aquí: [📈 Revisar mi avance](https://github.com/git-master-utn/aprende-postman/issues/new?template=revisar-avance.md&title=Revisar+mi+avance).
+
 ## ✅ Antes de continuar
 
 - [ ] Sé dónde se escriben las pruebas y dónde veo sus resultados

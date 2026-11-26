@@ -102,6 +102,10 @@ Verás en la terminal cada petición con sus pruebas y una tabla de resumen.
 > En tu repo **público** `mi-coleccion-postman` deben estar tu **colección
 > exportada en formato v2.1** y tu **entorno** con la variable `base_url`.
 
+> [!TIP]
+> **¿Ya quedó bien?** Haz `git push` y comenta `/revisar` en tu Issue de avance.
+> Si todavía no lo tienes, ábrelo aquí: [📈 Revisar mi avance](https://github.com/git-master-utn/aprende-postman/issues/new?template=revisar-avance.md&title=Revisar+mi+avance).
+
 ## ✅ Antes de continuar
 
 - [ ] Mi colección pasa todas sus pruebas en el Runner

@@ -85,6 +85,10 @@ Puedes hacer lo mismo en cada petición.
 > [!IMPORTANT]
 > Tu colección debe tener **al menos 5 peticiones** y estar **organizada en carpetas**.
 
+> [!TIP]
+> **¿Ya quedó bien?** Haz `git push` y comenta `/revisar` en tu Issue de avance.
+> Si todavía no lo tienes, ábrelo aquí: [📈 Revisar mi avance](https://github.com/git-master-utn/aprende-postman/issues/new?template=revisar-avance.md&title=Revisar+mi+avance).
+
 ## ✅ Antes de continuar
 
 - [ ] Tengo la colección `Mi blog` con carpetas

@@ -132,6 +132,10 @@ Anota qué código de estado respondió cada una.
 > En tu colección final (módulo 05) debe haber peticiones con los métodos
 > **GET, POST, PUT y DELETE**, y el **POST** y el **PUT** deben llevar un **body en JSON**.
 
+> [!TIP]
+> **¿Ya quedó bien?** Haz `git push` y comenta `/revisar` en tu Issue de avance.
+> Si todavía no lo tienes, ábrelo aquí: [📈 Revisar mi avance](https://github.com/git-master-utn/aprende-postman/issues/new?template=revisar-avance.md&title=Revisar+mi+avance).
+
 ## ✅ Antes de continuar
 
 - [ ] Sé para qué sirve cada método
