@@ -357,8 +357,9 @@ def verificar_pr(repo, numero, autor, resumen_en_log=True):
                           "el instructor lo hará a mano.")
     else:
         partes.append("❌ **Todavía falta algo.** Revisa lo que está en rojo, complétalo y "
-                      "después **edita la descripción de este Pull Request** (basta con agregar "
-                      "un espacio) para que se vuelva a revisar.")
+                      "después **edita la descripción de este Pull Request** para que se vuelva a revisar: "
+                      "en el primer recuadro (el tuyo) da clic en **⋯** → **Edit**, agrega un espacio "
+                      "al final y da clic en **Update comment**.")
     if problemas:
         partes += ["", "### Tu Pull Request", ""] + [f"- ❌ {p}" for p in problemas]
 

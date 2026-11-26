@@ -124,7 +124,15 @@ módulo 05):
 4. **PATCH** a `/posts/1` cambiando solo el `body`.
 5. **DELETE** a `/posts/1`.
 
-Anota qué código de estado respondió cada una.
+✔️ **Resultado esperado:**
+
+| Petición | Código |
+|---|:-:|
+| GET `/comments?postId=1` | `200 OK` (5 comentarios) |
+| POST `/posts` | `201 Created` (con `"id": 101`) |
+| PUT `/posts/1` | `200 OK` |
+| PATCH `/posts/1` | `200 OK` |
+| DELETE `/posts/1` | `200 OK` |
 
 ## 🔎 Evidencia para el reto final
 

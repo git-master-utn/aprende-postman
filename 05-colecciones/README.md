@@ -35,14 +35,25 @@ flowchart TD
 
 ## 3. Guarda tus peticiones
 
-Para cada petición:
+🟠 Para cada petición:
 
 1. Ábrela (o créala) con su método, URL y body.
-2. Presiona **Ctrl + S** (o el botón **Save**).
-3. Escribe un **nombre claro**, por ejemplo `Crear publicación`.
-4. Elige la carpeta donde va (por ejemplo `Mi blog / Publicaciones`) → **Save**.
+2. Presiona **Ctrl + S** (o el botón **Save**, a la derecha de **Send**).
+3. Se abre la ventana **Save request**. En **Request name** escribe un **nombre
+   claro**, por ejemplo `Crear publicación`.
+4. Abajo, en la lista, da clic en `Mi blog` y luego en la carpeta donde va
+   (por ejemplo `Publicaciones`).
+5. Clic en el botón **Save** de esa ventana.
 
-Otra forma: **⋯** sobre una carpeta → **Add request**: se crea ya guardada ahí.
+✔️ La petición aparece en la barra lateral, dentro de su carpeta, y en la pestaña
+de arriba ya no se ve el puntito que indica *cambios sin guardar*.
+
+Otra forma: pasa el mouse sobre una carpeta → **⋯** → **Add request**: se crea ya
+guardada ahí. Después de escribir la URL o el body, guarda con **Ctrl + S**.
+
+> [!IMPORTANT]
+> Cada vez que cambies algo de una petición (URL, body o pruebas), **guarda con
+> Ctrl + S**. Lo que no guardes no se exporta y el robot no lo ve.
 
 > [!TIP]
 > Ponle a cada petición un nombre que diga **qué hace**, no solo la URL.

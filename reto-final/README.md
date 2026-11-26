@@ -76,8 +76,7 @@ En un minuto aparece un **comentario automático** en tu Pull Request con tu
   tu fila ya quedó en la lista.
 - Si algo sale en ❌, ve al módulo indicado, corrígelo en Postman, **vuelve a
   exportar** y sube los archivos a tu `mi-coleccion-postman` con `git push`.
-  Después **edita la descripción de tu Pull Request** (agrega un espacio y guarda)
-  para que el robot vuelva a revisar. **No abras otro PR.**
+  Después **edita la descripción de tu Pull Request** para que el robot vuelva a revisar: en tu PR, en el primer recuadro (el tuyo), da clic en **⋯** → **Edit**, agrega un espacio al final y da clic en **Update comment**. **No abras otro PR.**
 
 ## Si el robot marca algo en rojo
 

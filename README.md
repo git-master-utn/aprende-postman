@@ -121,6 +121,22 @@ tareas (`/todos`).
 > si la hubiera guardado, pero no la guarda de verdad. Es perfecto para practicar
 > sin romper nada.
 
+## 🧭 Cómo leer las instrucciones
+
+Cada paso dice **dónde** se hace con un ícono:
+
+| Ícono | Dónde se hace |
+|:-:|---|
+| 🟠 | **Postman**: en la app de escritorio |
+| 💻 | **Git Bash**: escribe el comando y presiona **Enter** |
+| 🌐 | **GitHub**: en el navegador, con **tu** cuenta iniciada |
+| 📝 | **Bloc de notas**: escribes o cambias el contenido de un archivo y guardas con **Ctrl + S** |
+| ✔️ | **Resultado esperado**: lo que debes ver si todo salió bien |
+
+Escribe los comandos **tal cual**, cambiando solo lo que está en MAYÚSCULAS
+(como `TU-USUARIO`). Si algo sale distinto, revisa los
+[problemas comunes](cheatsheet.md#-problemas-comunes-en-git-bash).
+
 ## 🚀 ¿Cómo usar este repo?
 
 1. Sigue los módulos **en orden**; cada uno usa lo del anterior.

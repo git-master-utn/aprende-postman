@@ -22,29 +22,51 @@ el resultado de todas las pruebas juntas.
 
 ## 2. Exporta tu colección y tu entorno
 
-**Colección:**
-1. **⋯** sobre `Mi blog` → **More** → **Export** (o directamente **Export**).
-2. Elige **Collection v2.1** → **Export**.
-3. Guárdala en una carpeta nueva llamada `mi-coleccion-postman`. El archivo se llama
-   algo como `Mi blog.postman_collection.json`.
+**Primero, 💻 crea la carpeta donde vas a guardarlos.** En Git Bash:
 
-**Entorno:**
-1. Barra lateral → **Environments** → **⋯** sobre `Desarrollo` → **Export**.
-2. Guárdalo en la misma carpeta. El archivo se llama `Desarrollo.postman_environment.json`.
+```bash
+mkdir -p ~/Downloads/mi-coleccion-postman
+```
+
+✔️ En el Explorador de Windows, dentro de **Descargas**, ya existe la carpeta `mi-coleccion-postman`.
+
+**🟠 Exporta la colección:**
+1. En la barra lateral → **Collections** → pasa el mouse sobre `Mi blog` → **⋯**
+   → **More** → **Export** (en algunas versiones sale directo **Export**).
+2. Elige **Collection v2.1** → botón **Export**.
+3. Se abre la ventana de Windows para guardar: entra a **Descargas** →
+   **mi-coleccion-postman** → **Guardar**. No le cambies el nombre al archivo.
+
+**🟠 Exporta el entorno:**
+1. En la barra lateral → **Environments** → pasa el mouse sobre `Desarrollo` →
+   **⋯** → **Export**.
+2. Guárdalo en la **misma** carpeta: **Descargas** → **mi-coleccion-postman** → **Guardar**.
 
 > [!WARNING]
 > Antes de exportar, revisa que tu entorno **no tenga tokens ni contraseñas**.
 > Lo que subas a un repo público lo puede ver cualquier persona.
 
+**💻 Comprueba que están los dos:**
+
+```bash
+cd ~/Downloads/mi-coleccion-postman
+ls
+```
+
+✔️ Deben salir dos archivos: `'Mi blog.postman_collection.json'` y
+`Desarrollo.postman_environment.json`. Las comillas aparecen porque el nombre
+tiene un espacio; es normal.
+
 ## 3. Súbelos a GitHub
 
 Lo mismo que aprendiste en `aprende-github`:
 
-1. En GitHub: **+** → **New repository** → nombre **exactamente**
-   `mi-coleccion-postman`, **Public**, sin marcar nada → **Create repository**.
-2. Abre Git Bash **dentro de tu carpeta `mi-coleccion-postman`** (clic derecho →
-   **Open Git Bash here**) y revisa con `ls` que estén tus dos archivos `.json`.
-3. Crea un README y sube todo (cambia `TU-USUARIO`):
+**1. 🌐 Crea el repo:** en GitHub → **+** → **New repository** → nombre
+**exactamente** `mi-coleccion-postman` → **Public** → **no marques** ninguna
+casilla → **Create repository**.
+
+**2. 💻 Sube tus archivos** (en Git Bash, dentro de `~/Downloads/mi-coleccion-postman`;
+cambia `TU-USUARIO` por el tuyo):
 
 ```bash
 echo "# Mi colección de Postman" > README.md
@@ -56,12 +78,18 @@ git remote add origin https://github.com/TU-USUARIO/mi-coleccion-postman.git
 git push -u origin main
 ```
 
-4. Recarga tu repo en GitHub: deben aparecer `README.md` y tus dos archivos `.json`.
+Si te pide iniciar sesión, elige **Sign in with your browser**, entra con **tu**
+cuenta y da clic en **Authorize**.
 
-**Si después cambias algo** en Postman, vuelve a exportar encima de los mismos
-archivos y sube los cambios:
+✔️ **Resultado esperado:** Git Bash termina con `main -> main`, y 🌐 en
+`github.com/TU-USUARIO/mi-coleccion-postman` aparecen `README.md` y tus dos `.json`.
+
+**Si después cambias algo en Postman:** guarda (**Ctrl + S**), vuelve a exportar
+en la misma carpeta con el mismo nombre (Windows pregunta si quieres
+**reemplazar** el archivo: di que **Sí**) y sube los cambios:
 
 ```bash
+cd ~/Downloads/mi-coleccion-postman
 git add .
 git commit -m "Actualizo mi colección"
 git push
